@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+:root {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.wrapper {
+    @apply border-b border-gray-300;
+}
+
+.section-container {
+    @apply w-[1080px] m-auto items-center justify-between py-4;
+}
+
+.title .tool {
+    @apply flex items-center gap-x-1 underline hover:bg-stone-100 rounded-lg p-2 cursor-pointer;
+}
+
+svg.logo path {
+    fill: #ff385c;
+}
